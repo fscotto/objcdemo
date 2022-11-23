@@ -9,29 +9,5 @@
 #import "AutoSportiva.h"
 
 @implementation AutoSportiva
-{
-    int cavalliMotore;
-    int kiloWatts;
-}
-
-- (void) printHP
-{
-    NSLog(@"%i", cavalliMotore);
-}
-
-- (void) printKW
-{
-    NSLog(@"%i", kiloWatts);
-}
-
-- (void) setCavalliMotore:(int) h
-{
-    cavalliMotore = h;
-}
-
-- (void) setKiloWatts:(int) k
-{
-    kiloWatts = k;
-}
 
 @end

@@ -51,11 +51,11 @@ int main(int argc, const char * argv[]) {
         [gto599 setCavalliMotore: 670];
         [gto599 setKiloWatts: 500];
         
-        NSLog(@"La Potenza della Ferrari 599GTO in Kilowatt è: ");
-        [gto599 printKW];
+        //NSLog(@"La Potenza della Ferrari 599GTO in Kilowatt è: ");
+        //[gto599 printKW];
         
-        NSLog(@"che in Cavalli Motore equivalgono a:");
-        [gto599 printHP];
+        //NSLog(@"che in Cavalli Motore equivalgono a:");
+        //[gto599 printHP];
         
         // Le variabili hanno 5 livelli di visibilità
         // Blocco
@@ -70,6 +70,8 @@ int main(int argc, const char * argv[]) {
         
         [istanza1 setVariabileGlobale: 50];
         NSLog(@"Adesso la variabile gVariabileGlobale vale %i\n", gVariabileGlobale);
+                
+        NSLog(@"La potenza della Ferrari 599GTO in Kilowatt è %iKw e in Cavalli Motore %iHp", [gto599 kiloWatts], [gto599 cavalliMotore]);
     }
     return 0;
 }

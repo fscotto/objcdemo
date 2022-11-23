@@ -10,10 +10,8 @@
 
 @interface AutoSportiva : NSObject
 
-- (void) setCavalliMotore: (int) h;
-- (void) setKiloWatts: (int) k;
-- (void) printHP;
-- (void) printKW;
+@property (readwrite, nonatomic) int cavalliMotore;
+@property (readwrite, nonatomic) int kiloWatts;
 
 @end
 
