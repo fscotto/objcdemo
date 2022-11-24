@@ -46,7 +46,7 @@ int main(int argc, const char * argv[]) {
         AutoSportiva *gto599Compact = [[AutoSportiva alloc] init];
         
         // La combinazione dei metodi alloc e init può essere ulteriormente compattata in:
-        AutoSportiva *gto599 = [AutoSportiva new];
+        AutoSportiva *gto599 = [AutoSportiva new]; // Pratica sconsigliata per via della possibilità di override dei metodi alloc e init
         
         [gto599 setCavalliMotore: 670];
         [gto599 setKiloWatts: 500];
@@ -72,6 +72,12 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Adesso la variabile gVariabileGlobale vale %i\n", gVariabileGlobale);
                 
         NSLog(@"La potenza della Ferrari 599GTO in Kilowatt è %iKw e in Cavalli Motore %iHp", [gto599 kiloWatts], [gto599 cavalliMotore]);
+        
+        [gto599 setLivelloBenzina: 10];
+        [gto599 addBenzina: 30];
+        [gto599 rifornimentoBenzina];
+        
+        AutoSportiva *gto599_2 = [[AutoSportiva alloc] initWithBenzina: 30];
     }
     return 0;
 }

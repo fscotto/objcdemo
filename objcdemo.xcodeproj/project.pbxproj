@@ -10,6 +10,7 @@
 		DCAE0B3C292A288500D836D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAE0B3B292A288500D836D2 /* main.m */; };
 		DCAE0B44292A3EF400D836D2 /* AutoSportiva.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAE0B43292A3EF400D836D2 /* AutoSportiva.m */; };
 		DCAE0B47292BF96C00D836D2 /* Classe1.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAE0B46292BF96C00D836D2 /* Classe1.m */; };
+		DCAE0B4A292EA30500D836D2 /* Rifornimento.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAE0B49292EA30500D836D2 /* Rifornimento.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		DCAE0B43292A3EF400D836D2 /* AutoSportiva.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoSportiva.m; sourceTree = "<group>"; };
 		DCAE0B45292BF93100D836D2 /* Classe1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Classe1.h; sourceTree = "<group>"; };
 		DCAE0B46292BF96C00D836D2 /* Classe1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Classe1.m; sourceTree = "<group>"; };
+		DCAE0B48292EA29000D836D2 /* Rifornimento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rifornimento.h; sourceTree = "<group>"; };
+		DCAE0B49292EA30500D836D2 /* Rifornimento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rifornimento.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				DCAE0B43292A3EF400D836D2 /* AutoSportiva.m */,
 				DCAE0B45292BF93100D836D2 /* Classe1.h */,
 				DCAE0B46292BF96C00D836D2 /* Classe1.m */,
+				DCAE0B48292EA29000D836D2 /* Rifornimento.h */,
+				DCAE0B49292EA30500D836D2 /* Rifornimento.m */,
 			);
 			path = objcdemo;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCAE0B44292A3EF400D836D2 /* AutoSportiva.m in Sources */,
+				DCAE0B4A292EA30500D836D2 /* Rifornimento.m in Sources */,
 				DCAE0B47292BF96C00D836D2 /* Classe1.m in Sources */,
 				DCAE0B3C292A288500D836D2 /* main.m in Sources */,
 			);
